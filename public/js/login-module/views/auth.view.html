@@ -1,0 +1,14 @@
+<div>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#signUp">Sign Up</a></li>
+  </ul>
+    <div id="signUp" class="tab-pane">
+          <ul>
+            <li>User Name:<input type="text" placeholder="Username" ng-model="username">  </li>
+            <li>Password :<input type="password" placeholder="Password" ng-model="password"></li>
+            <li>Confirm Password:<input type="password"placeholder="Confirm Password" ng-model="confirmPwd">  </li>
+            <li>  <input type="button" ng-click="login()" value="Sign Up"></li>
+          </ul>
+          <h5 style="color:red">  {{loginMessage}}</h5>
+    </div>
+</div>
